@@ -1,9 +1,13 @@
+
+<B> Download the APK file [APK file](https://github.com/Killmonger007/Student-schedule-management-app/blob/master/app-debug.apk)</B>
+
 # TimeTable
 <h1 align=center>
 <img src="app/src/logo-files/logo.png" width=50%>
 </h1>
 
 
+Download the APK file [APK file](https://github.com/Killmonger007/Student-schedule-management-app/blob/master/app-debug.apk)
 ### Contribute
  #time-table-in-android-java-for-students
 timetable & management app for students created in android <br><br>
@@ -12,6 +16,8 @@ i upgraded the timetable app created by [@ulan](https://github.com/ulan17/) to a
 you can not only add timetable for your lectures but can also add examination schedule, teachers details, home works with submission dates, you can also store notes   
 You can also add your school/college website for easy access 
 
+
+Download the APK file [APK file](https://github.com/Killmonger007/Student-schedule-management-app/blob/master/app-debug.apk)
 
 ### Screenshots
 <img alt="1 screenshot" src="screenshots/Screenshot_20220811_235908.jpg" width="31%" style="max-width:100%;"> &nbsp;&nbsp;&nbsp;&nbsp;
