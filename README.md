@@ -1,4 +1,5 @@
 
+### APK file
 <B> Download the APK file [APK file](https://raw.githubusercontent.com/Killmonger007/Student-schedule-management-app/master/app-debug.apk)</B>
 
 # TimeTable
@@ -34,4 +35,9 @@ Download the APK file [APK file](https://raw.githubusercontent.com/Killmonger007
 
 The source code is licensed under the [GNU v3 Public License](https://github.com/Killmonger007/Student-schedule-management-app/blob/master/LICENSE). 
 
+### APK file
 Download the APK file [APK file](https://raw.githubusercontent.com/Killmonger007/Student-schedule-management-app/master/app-debug.apk)
+
+### credits
+[@Killmonger007](https://github.com/Killmonger007)
+[@ulan](https://github.com/ulan17/)
