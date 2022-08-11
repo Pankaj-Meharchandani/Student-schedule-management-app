@@ -27,3 +27,5 @@ You can also add your school/college website for easy access
 ### Licence
 
 The source code is licensed under the [GNU v3 Public License](https://github.com/ulan17/TimeTable/blob/master/LICENSE). 
+
+APK file 
