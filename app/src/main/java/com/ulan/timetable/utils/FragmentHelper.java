@@ -15,9 +15,7 @@ import com.ulan.timetable.R;
 
 import java.util.ArrayList;
 
-/**
- * Created by Ulan on 03.12.2018.
- */
+
 public class FragmentHelper {
 
     public static AbsListView.MultiChoiceModeListener setupListViewMultiSelect(final Activity activity, final ListView listView, final WeekAdapter adapter, final DbHelper db) {

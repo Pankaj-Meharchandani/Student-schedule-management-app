@@ -17,9 +17,7 @@ import com.ulan.timetable.R;
 
 import java.util.Calendar;
 
-/**
- * Created by Ulan on 28.01.2019.
- */
+
 public class DailyReceiver extends BroadcastReceiver {
 
     Context context;

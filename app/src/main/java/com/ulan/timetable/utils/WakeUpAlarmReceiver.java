@@ -9,9 +9,6 @@ import android.content.Intent;
 import java.util.Calendar;
 import java.util.Objects;
 
-/**
- * Created by Ulan on 28.01.2019.
- */
 public class WakeUpAlarmReceiver extends BroadcastReceiver {
 
     @Override

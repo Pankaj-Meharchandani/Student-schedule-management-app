@@ -24,9 +24,7 @@ import java.util.ArrayList;
 import java.util.Objects;
 
 
-/**
- * Created by Ulan on 08.09.2018.
- */
+
 public class WeekAdapter extends ArrayAdapter<Week> {
 
     private Activity mActivity;
