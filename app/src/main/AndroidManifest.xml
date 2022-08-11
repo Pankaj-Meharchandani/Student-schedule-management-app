@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ulan.timetable"
+    >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.ulan.timetable.activities.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name="com.ulan.timetable.activities.HomeworksActivity"
+            android:label="@string/homeworks"
+            android:parentActivityName="com.ulan.timetable.activities.MainActivity" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.ulan.timetable.activities.HomeworksActivity" />
+
+        <activity
+            android:name="com.ulan.timetable.activities.NotesActivity"
+            android:label="Notes"
+            android:parentActivityName="com.ulan.timetable.activities.MainActivity" />
+        <activity
+            android:name="com.ulan.timetable.activities.NoteInfoActivity"
+            android:label="Notes"
+            android:parentActivityName="com.ulan.timetable.activities.NotesActivity" />
+        <activity
+            android:name="com.ulan.timetable.activities.TeachersActivity"
+            android:label="Teachers"
+            android:parentActivityName="com.ulan.timetable.activities.MainActivity" />
+        <activity
+            android:name="com.ulan.timetable.activities.SettingsActivity"
+            android:label="Settings"
+            android:parentActivityName="com.ulan.timetable.activities.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ulan.timetable.activities.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.ulan.timetable.activities.ExamsActivity"
+            android:label="Exams"
+            android:parentActivityName="com.ulan.timetable.activities.MainActivity" />
+
+        <receiver
+            android:name="com.ulan.timetable.utils.DailyReceiver"
+            android:enabled="true" />
+
+        <receiver
+            android:name="com.ulan.timetable.utils.WakeUpAlarmReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>
