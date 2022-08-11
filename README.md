@@ -28,4 +28,4 @@ You can also add your school/college website for easy access
 
 The source code is licensed under the [GNU v3 Public License](https://github.com/ulan17/TimeTable/blob/master/LICENSE). 
 
-APK file 
+Download the APK file [APK file](https://github.com/Killmonger007/Student-schedule-management-app/blob/master/app-debug.apk)
