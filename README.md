@@ -27,7 +27,10 @@ You can also add your school/college website for easy access
 
 The source code is licensed under the [GNU v3 Public License](https://github.com/Pankaj-Meharchandani/Student-schedule-management-app/blob/master/LICENSE). 
 
+### Contribute
+Contribute us with either your knowledge or financially
+to donate contact me via my website [Contact](https://pankajmeharchandani.myportfolio.com/)
 
 ### credits
-https://github.com/Pankaj-Meharchandani <br>
+[https://github.com/Pankaj-Meharchandani](https://github.com/Pankaj-Meharchandani) <br>
 [@ulan](https://github.com/ulan17/)
